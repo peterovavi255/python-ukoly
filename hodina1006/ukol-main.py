@@ -6,20 +6,20 @@ else:
     if cas >= 24:
         print("Zadávejte platné hodiny.")
 
-if cas <6:
+if cas <0-6:
     print("Dobrou noc")
 
-if cas  <9:
+if cas  <6-9:
     print("Dobré ráno")
 
-if cas <12: 
+if cas <9-12: 
     print("Dobré dopoledne")
 
-if cas <17:
+if cas <12-17:
     print("Dobré odpoledne")
 
-if cas <21:
+if cas <17-21:
     print("Dobrý večer")
 
-if cas <23:
+if cas <23-0:
     print("Dobrou noc")
