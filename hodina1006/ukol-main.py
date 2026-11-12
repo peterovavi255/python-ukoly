@@ -1,25 +1,19 @@
-cas= float(input("Zadej čas: "))
+cas = float(input("Zadej čas: "))
 
-if cas < 0:
-    input("Hodina nemůže být záporná.")
-else: 
-    if cas >= 24:
-        print("Zadávejte platné hodiny.")
+if cas < 0 :
+    print("Zadávejte platné hodiny.")
+elif cas >= 24:
+    print("Zadávejte platné hodiny.")
 
-if cas <0-6:
+elif cas < 6:
     print("Dobrou noc")
-
-if cas  <6-9:
+elif cas < 10:
     print("Dobré ráno")
-
-if cas <9-12: 
+elif cas < 13:
     print("Dobré dopoledne")
-
-if cas <12-17:
+elif cas < 18:
     print("Dobré odpoledne")
-
-if cas <17-21:
+elif cas < 22:
     print("Dobrý večer")
-
-if cas <23-0:
+else:
     print("Dobrou noc")
